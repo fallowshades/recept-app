@@ -142,6 +142,9 @@ export { store, setupStore, findDomElement }
 
 DisplayDOMElement.js
 
+- each object is mapped in a seperate component
+- the basic structure is to load in the page folder, map the array in the component folder and each object in a seperate component with element and possible events to affect the DOM when the data is modified the props will change and therefore the component render.
+
 ```js
 import { addToCart } from './src/cart/setupCart.js'
 
